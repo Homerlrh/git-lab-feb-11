@@ -4,7 +4,7 @@ document.querySelector("#toggle").addEventListener("click", (e) => {
 });
 
 function visability() {
-	var x = document.getElementById("a");
+	var x = document.querySelector("#a");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	} else {
