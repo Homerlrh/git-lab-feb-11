@@ -22,6 +22,8 @@
 	},
 	"husky": {
 		"hooks": {
+			"pre-commit": "npm test ",
+			"post-commit": "git push -u origin master",
 			"pre-push": "npm test",
 			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
 		}
