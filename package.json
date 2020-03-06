@@ -1,0 +1,29 @@
+{
+	"name": "git-lab-feb-11",
+	"version": "1.0.0",
+	"description": "Notion link: https://www.notion.so/ruli/Collaboration-Tools-Lab-March-6th-3a70cd9f1e634e9987bf5b98edc35fba",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/emo8355/git-lab-feb-11.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/emo8355/git-lab-feb-11/issues"
+	},
+	"homepage": "https://github.com/emo8355/git-lab-feb-11#readme",
+	"devDependencies": {
+		"husky": "^4.2.3"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm test",
+			"pre-push": "npm test"
+		}
+	}
+}
